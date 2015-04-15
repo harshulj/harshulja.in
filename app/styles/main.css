@@ -35,6 +35,10 @@ nav li{
   padding: 5px 10px;
 }
 
+nav li a{
+  font-style: italic;
+}
+
 /*************************
  *
  *  Two column layout CSS
@@ -80,9 +84,10 @@ nav li{
 }
 
 .circular-profile-image{
-  border-radius:50% 50% 50% 50%;  
-  width:150px;
-  height:150px;
+  border-radius: 50% 50% 50% 50%;  
+  width: 150px;
+  height: 150px;
+  margin: 20px;
 }
 
 footer{
