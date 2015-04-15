@@ -33,10 +33,12 @@ nav li{
   display: inline;
   text-decoration: none;
   padding: 5px 10px;
+  line-height: 18pt;
 }
 
 nav li a{
   font-style: italic;
+  font-size: 11pt;
 }
 
 /*************************
@@ -85,6 +87,7 @@ nav li a{
 
 .circular-profile-image{
   border-radius: 50% 50% 50% 50%;  
+  border: 2px solid #aaa;
   width: 150px;
   height: 150px;
   margin: 20px;
