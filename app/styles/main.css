@@ -1,0 +1,100 @@
+/************************
+ *
+ *  Layout styling
+ *
+ * *********************/
+
+.main-container, 
+.grid{
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+  font-family: Lato, san-serif;
+}
+
+.top-content{
+  margin: 0 auto;
+  height: 90%;
+  width: 50%;
+  display: table;
+}
+
+.main-content{
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+nav{
+  margin: 15px 5px;
+}
+
+nav li{
+  display: inline;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav li a{
+  font-style: italic;
+}
+
+/*************************
+ *
+ *  Two column layout CSS
+ *
+ * **********************/
+.col-1-3{
+  width: 33.33%;
+}
+
+.col-2-3{
+  width: 64.66%;
+}
+
+.col-1-3, 
+.col-2-3{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col-1-3, 
+.col-2-3{
+  padding: 0;
+}
+
+
+/*************
+ *
+ *  Styling
+ *
+ *  *********/
+.side-nav{
+  padding-top: 1px;
+  background: url("../images/side-nav-bg-1.png");
+  height: 100vh;
+  width: 100%;
+  display: table;
+}
+
+.side-nav-child{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.circular-profile-image{
+  border-radius: 50% 50% 50% 50%;  
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+}
+
+footer{
+  margin: 0 auto;
+  width: 50%;
+}
+
+.footer-content{
+  text-align: center;  
+}
