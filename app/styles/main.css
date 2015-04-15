@@ -8,12 +8,38 @@
 .grid{
   margin: 0 auto;
   width: 100%;
+  height: 100vh;
+  font-family: Lato, san-serif;
 }
 
-.content{
-  
+.top-content{
+  margin: 0 auto;
+  height: 90%;
+  width: 50%;
+  display: table;
 }
 
+.main-content{
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+nav{
+  margin: 15px 5px;
+}
+
+nav li{
+  display: inline;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+/*************************
+ *
+ *  Two column layout CSS
+ *
+ * **********************/
 .col-1-3{
   width: 33.33%;
 }
@@ -59,3 +85,11 @@
   height:150px;
 }
 
+footer{
+  margin: 0 auto;
+  width: 50%;
+}
+
+.footer-content{
+  text-align: center;  
+}
